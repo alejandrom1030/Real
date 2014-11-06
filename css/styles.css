@@ -1,0 +1,281 @@
+/*
+ * Globals
+ */
+
+/* Links */
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two);
+@import url(http://fonts.googleapis.com/css?family=Crafty+Girls);
+ @import url(http://fonts.googleapis.com/css?family=Oldenburg);
+ @import url(http://fonts.googleapis.com/css?family=Coming+Soon);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic);
+
+
+a,
+a:focus,
+a:hover {
+  color:#E8E8E8;
+  text-decoration: none;
+}
+
+
+ul{
+  list-style-type:none; 
+}
+
+.this
+{
+  padding:1%;
+}
+.websites
+{
+  background-image: url(../images/websites.gif);
+  background-size: 100% 100%;
+
+}
+.mobile
+{
+  background-image: url(../images/mobile.gif);
+  background-size: 100% 100%;
+}
+.ecommerce
+{
+  background-image: url(../images/ecommerce.gif);
+  background-size: 100% 100%;
+}
+.strategy
+{
+  background-image: url(../images/strategy.gif);
+  background-size: 100% 100%;
+}
+.applications
+{
+  background-image: url(../images/applications.gif);
+  background-size: 100% 100%;
+}
+.design
+{
+  background-image: url(../images/design.gif);
+  background-size: 100% 100%;
+}
+
+
+.fa-chevron-down{
+  position:absolute;
+}
+
+
+
+/* Custom default button */
+.btn-default,
+.btn-default:focus {
+  background-color: #58506F;
+  color: #fff;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  border: 1px solid #fff;
+}
+.btn-default:hover{
+  background-color: #453E57;
+  color: #fff;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  border: 1px solid #fff;
+}
+
+.real
+{
+  font-family:'Oldenburg', cursive;
+  color:#D55050;
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  
+}
+body {
+  color:#E8E8E8;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  background-color: #F3F3F3;
+  font-family:'Oldenburg', cursive;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  
+  
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.masthead
+{
+  background-color: transparent;
+  margin-right: auto;
+  margin-left: auto;
+}
+.modal
+{
+  color:#333333;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+
+}
+#first 
+{
+  height: 100%;
+  background-color:#BABEC2;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+
+ 
+}
+
+#second 
+{
+  height: 100%;
+  background-color: #7A6594;
+ -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color:#E8E8E8; /* IE8 proofing */
+  /*color: rgba(255,255,255,.75);*/
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color:#D9534F;
+  /*border-bottom-color: rgba(255,255,255,.25);*/
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color:#E8E8E8;
+  border-bottom-color: #BE2B2B;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+
+}
+
+.cover-heading{
+  font-family: 
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color:#E8E8E8; /* IE8 proofing */
+  /*color: rgba(255,255,255,.5);*/
+  background-color: transparent;
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: static;
+    top: 0;
+  }
+  .mastfoot {
+    position:absolute;
+    bottom: 0;
+    clear: both;
+    margin-left:25%;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
+
+a:hover>.fa-facebook{
+  color: #3b5998;
+
+}
+a:hover>.fa-twitter{
+  color: #00aced;
+
+}

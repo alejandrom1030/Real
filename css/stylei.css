@@ -1,0 +1,354 @@
+/*
+ * Globals
+ */
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two);
+@import url(http://fonts.googleapis.com/css?family=Vollkorn:700italic,400);
+ @import url(http://fonts.googleapis.com/css?family=Oldenburg);
+
+
+/* Links */
+
+
+a,
+a:focus,
+a:hover {
+  color:#F3F3F3;
+  text-decoration: none;
+}
+.btn
+{
+  font-family: 'Vollkorn', sans-serif;
+}
+
+.btn-primary
+{
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+  position: relative;
+  -webkit-box-shadow: 3px 3px 0px 0px #0E77BE;
+  box-shadow: 3px 3px 0px 0px #0E77BE;
+}
+.btn-primary:active
+{
+  top:3px;
+  -webkit-box-shadow: 3px 3px 0px 0px #0E77BE;
+  box-shadow: 3px 3px 0px 0px #0E77BE;
+}
+.btn-primary:hover
+{
+ -webkit-box-shadow: 3px 3px 0px 0px #1f4f8f;
+  box-shadow: 3px 3px 0px 0px #1f4f8f; 
+}
+
+.btn-success
+{
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+  position: relative;
+  -webkit-box-shadow: 3px 3px 0px 0px #009933;
+  box-shadow: 3px 3px 0px 0px #009933;
+}
+.btn-success:active
+{
+  top:3px;
+  -webkit-box-shadow: 3px 3px 0px 0px #009933;
+  box-shadow: 3px 3px 0px 0px #009933;
+}
+.btn-success:hover
+{
+ -webkit-box-shadow: 3px 3px 0px 0px #006633;
+  box-shadow: 3px 3px 0px 0px #006633; 
+}
+
+.red{
+  color: #D55050;
+}
+
+
+
+
+html,
+body {
+  height: 100%;
+
+}
+body {
+  color:#F3F3F3;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  font-family:'Oldenburg', cursive;
+  
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  
+  
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+  
+  
+}
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.masthead
+{
+  background-color: transparent;
+  margin-right: auto;
+  margin-left: auto;
+
+  
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+
+}
+.fa-chevron-down{
+  position:absolute;
+}
+
+  
+
+
+#first 
+{
+  height: 100%;
+  background-color: #77AF99;
+  background-image: url(../images/fr.jpg);
+  background-size: 100% 100%;
+ 
+}
+.text
+{
+  color:#4D4D4D;
+}
+#sixth
+{
+  background-color:#6EC575;
+  height: 100%;
+  background-size: 100% 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.real
+{
+  font-family:'Oldenburg', cursive;
+  color:#D55050;
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+#welcome
+{
+  padding: 14%;
+  position:relative;
+
+}
+#navbar
+{
+  background-color: transparent;
+  font-family: 'Vollkorn', sans-serif;
+}
+
+#second{
+  
+  background-color: #41ABC1;
+  height: 100%;
+   -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  
+}
+
+#third
+{
+  height: 100%;
+  background-color: #0093CD;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+#fourth
+{
+  height: 100%;
+  background-color:#1BBC9B;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  
+}
+#fifth
+{
+  background-color: #C5C0BA;
+  height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  
+}
+#conoce
+{
+  height: 100%;
+  background-color:#4A6FB1;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+
+
+.phone:hover{
+
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1..05)
+
+}
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color:#E8E8E8; /* IE8 proofing */
+  /*color: rgba(255,255,255,.75);*/
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #D9534F;
+  /*border-bottom-color: rgba(255,255,255,.25);*/
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color:#E8E8E8;
+  border-bottom-color: #BE2B2B;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+
+}
+
+.cover-heading{
+  font-family: 'Shadows Into Light Two', cursive;
+  color:#F3F3F3;
+
+}
+
+
+/*
+ * Footer
+ */
+#footer
+{
+  padding:10%;
+  font-family: 'Vollkorn', sans-serif;
+}
+.mastfoot {
+
+  color:#E8E8E8; /* IE8 proofing */
+  /*color: rgba(255,255,255,.5);*/
+ 
+  background-color: transparent;
+
+  
+
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: static;
+    top: 0;
+  }
+  .mastfoot {
+    position:absolute;
+    bottom: 0;
+    clear: both;
+    margin-left:25%;
+
+
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
+
+a:hover>.fa-facebook{
+  color: #3b5998;
+
+}
+a:hover>.fa-twitter{
+  color: #00aced;
+
+}
+
